@@ -1,0 +1,71 @@
+a{
+    margin-right: 3cm;
+    color: red;
+}
+.Menu{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.Sach{
+    position: relative;
+    border: 2px outset red;
+    text-align: center;
+    margin: 30px 0;
+    padding-top: 20px;
+
+}
+body{
+    background-color: antiquewhite;
+}
+.ads{
+    background: #303036 ;
+}
+.mail{
+    height: 40px;
+    width: 40px;
+    padding-left: 1cm;
+}
+.abc{
+    display: inline-flex;
+}
+.bq{
+    background-color: #343a40;
+    top: 0px;
+}
+main{
+    border:burlywood 2px solid;
+    margin: 0 260px;
+    padding: 0 300px;
+    margin-top: 100px;
+}
+.Tr1{
+    position: absolute;
+    height: 60px; 
+    width: 60px; 
+    top: 0px;
+}
+.Tr2{
+    position: absolute;
+    height: 60px;
+    width: 60px; 
+    bottom: 0px;
+    right: 0px;
+}
+.f1{
+    padding-left: 1cm; 
+    color: lightblue;
+}
+.f2{
+    padding-left: 1cm; 
+    color: aliceblue; 
+    font-size: 20px; 
+}

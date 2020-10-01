@@ -1,0 +1,117 @@
+.menu{
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    background-color: palevioletred;
+    margin: 0px 100px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0;
+    z-index: 99999;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid antiquewhite;
+    background-color: yellow;
+    padding: 5px 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.line1{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 0px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.line2{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 0px 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: mediumturquoise
+}
+
+.line3{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 0px 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+}
+
+.line4{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 0px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.line5{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 0px 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: mediumturquoise
+}
+
+.line6{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 0px 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+}
+
+.cha1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.cha2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nen-con{
+    border: 1px solid red;
+    margin-top: 80px;
+    width: 900px;
+    margin-left: 320px;
+    background-color: thistle;
+    
+}
+h3{
+    padding-left: 30px;
+}
+.line1, .line4{
+    background-color: palegreen;
+}
+body{
+    background-image: url(../img/nen.jpg);
+}
+.bq{
+    text-align: center;
+    border: 1px solid antiquewhite;
+    margin-top: 5px;
+    width: 100%;
+    background-color: pink;
+    font-size: 30px;
+}

@@ -1,0 +1,100 @@
+.bighome{
+    width: 20px;
+    height: 20px;
+}
+.Menu{
+    margin-left: 8cm;
+}
+hr{
+    color: darkred;
+    background-color: darkred;
+    margin-left: 8cm;
+    margin-right: 8cm;
+}
+a{
+    text-decoration: none;
+    
+}
+.link-menu{
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+
+}
+a.link-menu:hover {
+    color: white;
+    background-color: red;
+}
+.even{
+    width: 20px;
+    height: 20px;
+    margin-left: 8cm;
+}
+.hotnew{
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hotnew1{
+    margin-left: 10px;
+    color: gray;
+}
+a.hotnew1:hover{
+    color: darkred
+}
+.new1{
+    width: 475px;
+    height: 300px;
+    padding-top: -7px;
+    
+}
+.title1{
+    font-size: 30px;
+}
+.content1{
+    font-size: 20px;
+} 
+.tin-chinh{
+   margin-right: 19.2cm;
+   margin-left: 8cm;
+   margin-top: 20px;
+}
+.tinnho{
+    border: 1px solid white;
+    width: 155px;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-right: -8cm;
+    margin-top: 1cm;
+    margin-left: 8cm;
+    
+}
+.chunho{
+    font-size: 14px;
+    color: black;
+}
+.Thumucben{
+    border: 1px solid antiquewhite;
+    width: 300px;
+}
+.tt1{
+    border: solid 1px red;
+    width: 500px;
+}
+body{
+    margin: auto;
+}
+.TC{
+    border: 1px solid red;
+    display: inline-block;
+}
+.Menu11{
+    border: 1px solid red;
+    display: inline-block;
+}
+.menu11{
+    color: black;
+}
+.col1,.col2{
+    display: inline-block;
+}
