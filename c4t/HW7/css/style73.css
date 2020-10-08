@@ -1,0 +1,66 @@
+body{
+    background-image: url(../img/nen.jpg);
+}
+.signup{
+    border: 1px solid blue;
+    width: 650px;
+    position: absolute;
+    left: 754px;
+    background-color: lightblue;
+    height: 700px;
+}
+h1{
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Sansita Swashed', cursive;
+    margin-left: 5px;
+}
+.input1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px; 
+    border: none;
+}   
+.input2{
+    height: 40px;
+    width: 518px;   
+    margin-left: 23px;
+    margin-top: 5px ;
+    border-radius: 5px;
+    border: none;
+}
+.name{
+    margin-left: 23px;
+}
+hr{
+    border: 1px groove antiquewhite;
+}
+h4{
+    margin-left: 23px;
+    color: gray;
+}
+.gender{
+    margin-left: 23px;
+    margin-top: -16px;
+}
+.dob{
+    margin-top: -14px;
+    margin-left: 23px;
+}
+.agree{
+    margin-top: 10px;
+}
+.end{
+    width: 170px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 257px;
+    font-size: 23px;
+    background-color: #5933FF;
+}
+a{
+    text-decoration: none;
+}
