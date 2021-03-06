@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDv3Tjk-fL3QiWpNAaWR17B6banAurj4PU",
+            authDomain: "checkpoint63.firebaseapp.com",
+            projectId: "checkpoint63",
+            storageBucket: "checkpoint63.appspot.com",
+            messagingSenderId: "232515599432",
+            appId: "1:232515599432:web:6a1329a794be354ad96c7d",
+            measurementId: "G-0MW5HY648P"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="./index.js"></script>
+</head>
+
+<body style="background-image: url(./pexels-photo-268533.jpeg);">
+    <div style="margin: 0 auto; width: fit-content; height: fit-content; text-align: center; align-items: center;">
+        <h1 style="color: white;">Welcome to my screen !! Let's listen to a song</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GspDybPhOeY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <br>
+        <br>
+            <button id="si" onclick="probSignIn()">Sign in</button>
+    </div>
+</body>
+
+</html>

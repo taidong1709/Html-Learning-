@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./register.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Press+Start+2P&family=Sansita+Swashed:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="signup">
+            <form action="#" method="GET" id="regform">
+                <div>
+                    <h1>Đăng Kí</h1>
+                    <hr>
+                </div>
+                <div class="name">
+                    <input name="firstname" class="input1" type="text" placeholder="Tên">
+                    <input name="lastname" class="input1" type="text" placeholder="Họ">
+                </div>
+                <div>
+                    <input name="email" class="input2" type="email" placeholder="Địa chỉ email">
+                </div>
+                <div>
+                    <input name="username" class="input2" type="text" placeholder="Tên đăng nhập">
+                </div>
+                <div>
+                    <input name="password" class="input2" type="password" placeholder="Mật khẩu">
+                </div>
+                <div>
+                    <input name="retypepassword" class="input2" type="password" placeholder="Nhập lại mật khẩu">
+                </div>
+                <div>
+                    <h4>Giới tính</h4>
+                    <div class="gender">
+                        <span>
+                            <label for="male">Nam</label>
+                            <input type="radio" name="gender" value="male">
+                        </span>
+
+                        <span>
+                            <label for="female">Nữ</label>
+                            <input type="radio" name="gender" value="female">
+                        </span>
+
+                        <span>
+                            <label for="other">Khác</label>
+                            <input type="radio" name="gender" value="other">
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <h4>Ngày sinh</h4>
+                    <div class="dob">
+                        <span>
+                            <select name="ngay" id="ngaysinh">
+                                <option selected disabled>Ngày</option>
+                            </select>
+                        </span>
+                        <span>
+                            <select name="thang" id="thangsinh">
+                                <option selected disabled>Tháng</option>
+                            </select>
+                        </span>
+                        <span>
+                            <select name="nam" id="namsinh">
+                                <option selected disabled>Năm</option>
+                            </select>
+                        </span>
+                        <div class="agree">
+                            <span>
+                                <input type="radio" name="agree" value="agree">
+                                <label for="agree">Tôi đồng ý với các điều lệ</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input class="end" type="submit" value="Đăng kí">
+                </div>
+            </form>
+            <br>
+            <p style="text-align: center" id="errorMsg"></p>
+        </div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDv3Tjk-fL3QiWpNAaWR17B6banAurj4PU",
+            authDomain: "checkpoint63.firebaseapp.com",
+            projectId: "checkpoint63",
+            storageBucket: "checkpoint63.appspot.com",
+            messagingSenderId: "232515599432",
+            appId: "1:232515599432:web:6a1329a794be354ad96c7d",
+            measurementId: "G-0MW5HY648P"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="./register.js"></script>
+</body>
+
+</html>
